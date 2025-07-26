@@ -25,7 +25,7 @@ def filter_count_sort_entries():
     with open(w_file, 'w') as write:
         write.write('\n'.join(entries))
 
-    # 3 days in a row with entreis of rank 1, 2 and 3
+    # 3 days in a row with entries of rank 1, 2 and 3
 
     entries = []
     for i in data:
