@@ -41,4 +41,5 @@ def filter_count_sort_entries():
         write.write('\n'.join(entries))
 
 
-filter_count_sort_entries()
+if __name__ == '__main__':
+    filter_count_sort_entries()
