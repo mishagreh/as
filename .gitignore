@@ -1,4 +1,4 @@
-*.scv
+*.csv
 .env
 .venv
 env/
